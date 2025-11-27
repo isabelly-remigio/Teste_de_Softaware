@@ -1,0 +1,17 @@
+{
+  "test_scenario": "Caso 1 - 100k usuários",
+  "max_concurrent_users": 1000,
+  "performance_metrics": {
+    "response_time_p95": "147ms",
+    "error_rate": "0%",
+    "total_requests": 103672,
+    "throughput": "114.47 req/s",
+    "data_transferred": "426 MB",
+    "success_rate": "100%"
+  },
+  "projection_100k": {
+    "response_time": "275ms",
+    "error_rate": "0%",
+    "methodology": "Lei Universal de Escalabilidade"
+  }
+}

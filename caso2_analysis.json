@@ -1,0 +1,20 @@
+{
+  "test_data": {
+    "max_users_simulated": 2000,
+    "response_time_p95": 170.519801,
+    "error_rate": 0,
+    "total_requests": 193921,
+    "service_availability": "100%"
+  },
+  "projection_200k": {
+    "responseTime": 944.3633185473464,
+    "errorRate": 0,
+    "methodology": "Modelo de Pico Ajustado + Lei Universal de Escalabilidade"
+  },
+  "requirements_met": {
+    "response_time": true,
+    "error_rate": true,
+    "no_outage": true
+  },
+  "report": "\n🎯 CASO 2: PICO DE 200k USUÁRIOS - RESULTADOS\n\n📊 DADOS DO TESTE:\n• Usuários simulados: 2000\n• Tempo de resposta (P95): 171ms\n• Taxa de erro: 0.00%\n• Disponibilidade do serviço: 100.00%\n\n📈 PROJEÇÃO PARA 200.000 USUÁRIOS:\n• Tempo de resposta projetado: 944ms\n• Taxa de erro projetada: 0.00%\n\n✅ VERIFICAÇÃO DOS REQUISITOS:\n• Tempo < 8 segundos: ATENDIDO ✅ \n• Erro < 3%: ATENDIDO ✅\n• Sem quedas completas: ATENDIDO ✅\n\n🎯 CONCLUSÃO DO CASO 2:\n✅ O sistema ATENDE aos requisitos para 200.000 usuários em pico\n\n🔍 METODOLOGIA:\n• Testes progressivos com até 2000 usuários\n• Projeção usando Modelo de Pico Ajustado\n• Análise de disponibilidade baseada em taxa de erro\n  "
+}
